@@ -1,0 +1,77 @@
+body {
+	background: url("C:/Users/Joe Shin/Desktop/Rutgers/GitHub/week-4-gameassets/images/background.jpg");
+}
+
+header {
+	border: 1px solid red;
+	padding: 20px;
+	width: 200px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.container {
+	width: 400px;
+	border: 1px solid green;
+
+}
+
+.randomNumber {
+	width: 150px;
+	border: 1px solid blue;
+	height: 70px;
+	float: left;
+
+}
+
+.stats {
+	width: 150px;
+	border: 1px solid orange;
+	height: 70px;
+	float: left;
+}
+
+.tally {
+	width: 150px;
+	border: 1px solid black;
+	height: 70px;
+	clear: left;
+}
+
+.score {
+	width: 150px;
+	border: 1px solid green;
+	height: 70px;
+	clear: left;
+}
+
+.fire {
+	width: 100px;
+	height: 100px;
+	clear: left;
+	float: left;
+}
+
+.heart {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+.water {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+.wind {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+.earth {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
