@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+      <title>Movies</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+       
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand">Movies on Gify</a>
+                </div>
+                <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                        <input type="text" id="text-input" class="form-control" placeholder="Search!">
+                    </div>
+                    <button type="submit" id="btn-create" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+        <!-- /.navbar -->
+        <!-- TV show buttons -->
+        <div class="btn-group btn-group-lg" id="available-shows" role="group" aria-label="...">
+            <!-- buttons will appear here -->
+        </div>
+        <!-- gif area -->
+        <div class="container top-buffer">
+            <div class="row" id="gif-area">
+                <!-- selected show gifs will appear here -->
+            </div>
+        </div>
+        <!-- ./gif area -->
+        <!-- footer -->
+        <div class="push"></div>
+    </div>
+    <!-- /.wrapper -->
+    <div class="footer text-center">
+        <span class="copyright">
+      &copy Joe Shin 2016
+    </span>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script src="game.js"></script>
+</body>
+
+</html>
